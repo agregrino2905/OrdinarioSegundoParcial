@@ -43,3 +43,45 @@ body{
 .formulario{
     width:70%;
 }
+
+fila{
+    display:flex;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.fila label{
+    width:160px;
+    font-size:20px;
+    font-weight:bold;
+    color:#004fa3;
+}
+
+.fila input{
+    width:100%;
+    padding:10px;
+    border:1px solid #999;
+    font-size:18px;
+}
+
+/* Botón Buscar */
+.buscar button{
+    width:150px;
+    height:150px;
+    border:1px solid #ccc;
+    background:white;
+    color:#1b4fa5;
+    font-size:32px;
+    font-weight:bold;
+    font-family:"Comic Sans MS", cursive;
+    cursor:pointer;
+}
+
+/* Línea inferior */
+.linea{
+    width:75%;
+    height:6px;
+    background:#0f63c7;
+    margin:15px auto;
+    border-radius:10px;
+}
